@@ -1,0 +1,17 @@
+{
+  "name": "Roster OPD KKSgB",
+  "short_name": "Roster OPD",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f9fc",
+  "theme_color": "#0878b9",
+  "icons": [
+    {
+      "src": "./Roster_OPD_Icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Roster OPD</title>
+  <meta name="theme-color" content="#0878b9">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Roster OPD">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Roster OPD">
+  <link rel="apple-touch-icon" sizes="180x180" href="./Roster_OPD_Icon.png">
+  <link rel="icon" type="image/png" href="./Roster_OPD_Icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <style>
+    html,body{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:#f5f9fc}
+    body{display:grid;place-items:center}
+    .card{text-align:center;padding:28px;max-width:340px}
+    img{width:112px;height:112px;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+    h1{font-size:25px;margin:18px 0 6px;color:#123}
+    p{color:#64748b;margin:0 0 18px}
+    a{display:inline-block;background:#0878b9;color:#fff;text-decoration:none;font-weight:700;padding:13px 20px;border-radius:14px}
+  </style>
+  <script>
+    // When launched from Home Screen, redirect to the real roster.
+    window.addEventListener('load', function(){
+      setTimeout(function(){ window.location.replace('https://script.google.com/macros/s/AKfycbyJUVc1BvmxeMZLS6wl7RbpbyjjB_ccfdnTmDRARGqGZsRZoZ4jGcJMc8K86BacAZo/exec'); }, 350);
+    });
+  </script>
+</head>
+<body>
+  <div class="card">
+    <img src="./Roster_OPD_Icon.png" alt="Roster OPD">
+    <h1>Roster OPD</h1>
+    <p>Membuka Roster OPD KKSgB…</p>
+    <a href="https://script.google.com/macros/s/AKfycbyJUVc1BvmxeMZLS6wl7RbpbyjjB_ccfdnTmDRARGqGZsRZoZ4jGcJMc8K86BacAZo/exec">Buka Roster</a>
+  </div>
+</body>
+</html>
